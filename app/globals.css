@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142.1 76.2% 36.3%;
+    --radius: 0.5rem;
+
+    /* Custom colors */
+    --neon-blue: 210 100% 60%;
+    --neon-purple: 280 100% 60%;
+    --neon-pink: 330 100% 60%;
+    --neon-green: 142.1 76.2% 50%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 144.9 80.4% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142.4 71.8% 29.2%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom classes */
+.glassmorphism {
+  @apply bg-black/30 backdrop-blur-md border border-white/10 rounded-xl;
+}
+
+.neon-text-blue {
+  @apply text-blue-400 drop-shadow-[0_0_10px_rgba(59,130,246,0.8)];
+}
+
+.neon-text-purple {
+  @apply text-purple-400 drop-shadow-[0_0_10px_rgba(168,85,247,0.8)];
+}
+
+.neon-text-pink {
+  @apply text-pink-400 drop-shadow-[0_0_10px_rgba(236,72,153,0.8)];
+}
+
+.neon-text-green {
+  @apply text-green-400 drop-shadow-[0_0_10px_rgba(74,222,128,0.8)];
+}
+
+.neon-border {
+  @apply border border-blue-500/50 shadow-[0_0_15px_rgba(59,130,246,0.5)];
+}
+
+.neon-glow {
+  @apply relative;
+}
+
+.neon-glow::before {
+  content: "";
+  @apply absolute inset-0 -z-10 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl blur-xl opacity-75;
+}
+
+/* Animated background */
+.animated-bg {
+  background: linear-gradient(125deg, #000000 0%, #0f172a 25%, #1e1b4b 50%, #0f172a 75%, #000000 100%);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+/* Mouse trail effect */
+.cursor-dot {
+  @apply fixed w-3 h-3 rounded-full bg-blue-500 pointer-events-none z-50 opacity-75;
+  mix-blend-mode: screen;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-outline {
+  @apply fixed w-8 h-8 rounded-full border border-blue-500 pointer-events-none z-50 opacity-75;
+  mix-blend-mode: screen;
+  transform: translate(-50%, -50%);
+}
