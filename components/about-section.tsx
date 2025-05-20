@@ -21,7 +21,7 @@ export default function AboutSection() {
       year: "2022-2026",
       title: "BTech in Information Technology",
       description: "College of Engineering Guindy, Anna University",
-      details: "7.96 GPA. DBMS, OS, Data Structures, Networks, Cloud, Distributed DB, IOT, Java, Python, C, C++.",
+      details: "8.2 GPA. DBMS, OS, Data Structures, Networks, Cloud, Distributed DB, IOT, Java, Python, C, C++.",
     },
     {
       year: "2021-2022",
