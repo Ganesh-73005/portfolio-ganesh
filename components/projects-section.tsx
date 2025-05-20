@@ -63,7 +63,7 @@ const projects: Project[] = [
     image: "https://cdir.netlify.app/assets/cdir-logo-CES0fsRm.png?height=400&width=600",
     techStack: ["React", "WoosMap API", "GeoJSON", "Node.js"],
     github: "https://github.com/Ganesh-73005",
-    demo:"https://cdir.netlify.app"
+    demo:"https://cdir.netlify.app",
     details:
       "AI-powered navigation using WoosMap API & GeoJSON with indoor/outdoor routing; helped 500+ students navigate campus. The app provides turn-by-turn directions and points of interest within the campus.",
   },
