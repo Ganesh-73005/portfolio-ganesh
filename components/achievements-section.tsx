@@ -55,15 +55,15 @@ const achievements: Achievement[] = [
     title: "I++",
     organizer: "CEG",
     date: "October 2023",
-    type: "Winner",
-    logo: "https://media.licdn.com/dms/image/v2/C5603AQECOd-udbFw3Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1636972734930?e=2147483647&v=beta&t=RVvZ6fkKk6_lK0PuhhhRRgdUb8hNWSQD3c90APC-5zI?height=80&width=80",
+    type: "winner",
+    logo: "https://images.shiksha.com/mediadata/images/1547804056phpGT8DhX.jpeg?height=80&width=80",
   },
   {
     id: 6,
     title: "Codecycle'24",
     organizer: "CEG",
     date: "October 2024",
-    type: "Winner",
+    type: "winner",
     logo: "https://www.csau.in/logo.png",
   },
   {
