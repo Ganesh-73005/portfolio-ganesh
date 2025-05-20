@@ -27,7 +27,7 @@ const projects: Project[] = [
     id: 1,
     title: "SpotPerfect",
     description: "Warehouse Location Predictor",
-    image: "../public/image.png?height=400&width=600",
+    image: "https://storage.icograms.com/templates/preview/warehouse-map.png?height=400&width=60",
     techStack: ["Python", "Machine Learning", "GMap API", "Flask"],
     github: "https://github.com/Ganesh-73005",
     demo: "https://spotperfect.streamlit.app",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     id: 2,
     title: "Livestock Disease Detection",
     description: "Computer Vision-based Disease Prediction",
-    image: "https://github.com/Ganesh-73005/HEAL_HEARD/blob/main/LiveStock/App/static/uploads/pngtree-cartoon-mobile-phone-search-map-interface-png-image_5568426-removebg-preview.png?height=400&width=600",
+    image: "https://www.nivedi.res.in/Nadres_v2/images/ai/ai14.png?height=400&width=600",
     techStack: ["Python", "Computer Vision", "YOLO V8", "VGG16", "TensorFlow"],
     github: "https://github.com/Ganesh-73005",
     details:
@@ -48,7 +48,7 @@ const projects: Project[] = [
     id: 3,
     title: "Safe Route & SOS App",
     description: "Safety App for Women",
-    image:"https://github.com/Ganesh-73005/Team_MakeChange_womensafetysos/blob/main/Screenshot%202024-10-27%20161707.png?height=400&width=600",
+    image:"https://cdn.dribbble.com/userupload/15335834/file/original-052ece072f935ce3974a46efd5600e03.png?format=webp&resize=400x300&vertical=center?height=400&width=600",
    
     techStack: ["React Native", "WebSocket", "ML", "GMM", "Node.js"],
     github: "https://github.com/Ganesh-73005",
