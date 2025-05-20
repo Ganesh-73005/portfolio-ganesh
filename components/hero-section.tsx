@@ -82,12 +82,12 @@ export default function HeroSection() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex flex-wrap justify-center gap-4 mb-12"
         >
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white" size="lg">
+         <a href="#projects"> <Button className="bg-blue-600 hover:bg-blue-700 text-white" size="lg">
             View Projects
-          </Button>
-          <Button variant="outline" className="border-blue-500 text-blue-400 hover:bg-blue-500/10" size="lg">
+          </Button></a>
+         <a href="#contact"> <Button variant="outline" className="border-blue-500 text-blue-400 hover:bg-blue-500/10" size="lg">
             Contact Me
-          </Button>
+          </Button></a>
         </motion.div>
 
         <motion.div
@@ -97,7 +97,7 @@ export default function HeroSection() {
           className="flex justify-center space-x-6 mb-12"
         >
           <a
-            href="https://github.com/"
+            href="https://github.com/Ganesh-73005"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -106,7 +106,7 @@ export default function HeroSection() {
             <span className="sr-only">GitHub</span>
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://in.linkedin.com/in/ganesh-s-60ba63339?trk=people-guest_people_search-card"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-400 transition-colors"
