@@ -204,7 +204,7 @@ export default function ContactSection() {
                     <p className="text-gray-400 mb-4">
                       Download my resume to learn more about my education, experience, and skills.
                     </p>
-                   <a href="https://drive.google.com/file/d/1ESyRF5jhJYjpNM0sKSOeFUWfPjZPinc8/view?usp=sharing"> <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                   <a href="https://drive.google.com/file/d/1pjd2V30svVXXEuoQuv-aVtCajEmUDmVn/view?usp=sharing"> <Button className="w-full bg-blue-600 hover:bg-blue-700">
                       <Download className="h-4 w-4 mr-2" />
                       Download Resume
                     </Button></a>
