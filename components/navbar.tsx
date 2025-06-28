@@ -68,7 +68,7 @@ export default function Navbar() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3, delay: 0.6 }}
           >
-            <Link href="https://drive.google.com/file/d/1ESyRF5jhJYjpNM0sKSOeFUWfPjZPinc8/view?usp=sharing"><Button variant="outline" className="ml-4 border-blue-500 text-blue-400 hover:bg-blue-500/10">
+            <Link href="https://drive.google.com/file/d/1pjd2V30svVXXEuoQuv-aVtCajEmUDmVn/view?usp=sharing"><Button variant="outline" className="ml-4 border-blue-500 text-blue-400 hover:bg-blue-500/10">
               Resume
             </Button></Link>
           </motion.div>
@@ -107,7 +107,7 @@ export default function Navbar() {
                 >
                   {link.label}
                 </Link>
-              ))}<Link href="https://drive.google.com/file/d/1ESyRF5jhJYjpNM0sKSOeFUWfPjZPinc8/view?usp=sharing">
+              ))}<Link href="https://drive.google.com/file/d/1pjd2V30svVXXEuoQuv-aVtCajEmUDmVn/view?usp=sharing">
               <Button variant="outline" className="border-blue-500 text-blue-400 hover:bg-blue-500/10">
                 Resume
               </Button></Link>
